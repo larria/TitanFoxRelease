@@ -1,0 +1,391 @@
+{
+    "valuebleProperties": {
+        "characterDefensiveAbilityModifier": [
+            "@1@ 防御能力"
+        ],
+        "characterDeflectProjectile": [
+            "@1@ 机率躲避投射物"
+        ],
+        "characterDodgePercent": [
+            "@1@ 机率避开攻击"
+        ],
+        "defensivePhysical": [
+            "@1@ 物理伤害抗性"
+        ],
+        "characterAttackSpeedModifier": [
+            "@1@ 攻击速度"
+        ],
+        "characterOffensiveAbilityModifier": [
+            "@1@ 战斗能力"
+        ],
+        "characterOffensiveAbility": [
+            "@1@ 点战斗能力",
+            "num"
+        ],
+        "characterDefensiveAbility": [
+            "@1@ 点防御能力",
+            "num"
+        ],
+        "offensivePhysicalModifier": [
+            "@1@ 物理伤害"
+        ],
+        "offensiveElementalModifier": [
+            "@1@ 元素伤害"
+        ],
+        "offensiveTotalDamageModifier": [
+            "@1@ 所有伤害"
+        ],
+        "skillCooldownReduction": [
+            "@1@ 冷却时间"
+        ],
+        "characterLifeModifier": [
+            "@1@ 生命"
+        ],
+        "skillProjectileSpeedModifier": [
+            "@1@ 加快投射速度"
+        ],
+        "characterTotalSpeedModifier": [
+            "@1@ 全部速度"
+        ],
+        "defensiveSleep": [
+            "@1@ 昏睡抵抗"
+        ],
+        "defensiveStun": [
+            "@1@ 眩晕抵抗"
+        ],
+        "characterLife": [
+            "@1@ 生命",
+            "num"
+        ],
+        "characterStrength": [
+            "@1@ 力量",
+            "num"
+        ],
+        "defensiveFreeze": [
+            "@1@ 减少冰冻持续时间"
+        ],
+        "defensiveTrap": [
+            "@1@ 减少陷阱持续时间"
+        ],
+        "augmentAllLevel": [
+            "@1@ 到所有技能",
+            "num"
+        ],
+        "characterIncreasedExperience": [
+            "@1@ 增加经验"
+        ],
+        "defensivePoison": [
+            "@1@ 毒素抗性"
+        ],
+        "characterStrengthModifier": [
+            "@1@ 力量"
+        ],
+        "characterDexterity": [
+            "@1@ 敏捷",
+            "num"
+        ],
+        "defensiveFire": [
+            "@1@火焰抗性"
+        ],
+        "defensiveProtectionModifier": [
+            "@1@ 护甲防御"
+        ],
+        "defensiveDisruption": [
+            "@1@ 技能中断保护"
+        ],
+        "defensiveElementalResistance": [
+            "@1@ 元素抗性"
+        ],
+        "defensiveLife": [
+            "@1@ 活力伤害抵抗"
+        ],
+        "defensivePierce": [
+            "@1@ 穿刺抵抗"
+        ],
+        "defensiveBleeding": [
+            "@1@ 失血性伤害抗性"
+        ],
+        "defensiveCold": [
+            "@1@ 冰冷抗性"
+        ],
+        "defensiveLightning": [
+            "@1@ 闪电抗性"
+        ],
+        "characterIntelligence": [
+            "@1@ 智力",
+            "num"
+        ],
+        "offensiveSlowColdModifier": [
+            "@1@ 冰冻伤害"
+        ],
+        "offensiveColdModifier": [
+            "@1@ 冰冷伤害"
+        ],
+        "offensiveFireModifier": [
+            "@1@ 火焰伤害"
+        ],
+        "offensiveSlowFireModifier": [
+            "@1@ 燃烧伤害"
+        ],
+        "offensiveLifeLeech": [
+            "@1@ 攻击伤害转换为自身生命值增加"
+        ],
+        "characterDexterityModifier": [
+            "@1@ 敏捷"
+        ]
+    },
+    "difficulty": "legend",
+    "questDefensiveBonus": [
+        {
+            "typeList": [
+                "defensiveFire",
+                "defensiveLightning",
+                "defensiveCold",
+                "defensivePoison"
+            ],
+            "value": 5,
+            "current": 3
+        },
+        {
+            "typeList": [
+                "defensiveFire",
+                "defensiveLightning",
+                "defensiveCold",
+                "defensivePoison"
+            ],
+            "value": 7,
+            "current": 3
+        },
+        {
+            "typeList": [
+                "defensiveElementalResistance"
+            ],
+            "value": 5,
+            "current": 0
+        }
+    ],
+    "bodyStatus": {
+        "defensive": [
+            {
+                "name": "fire",
+                "difficultyFixList": [
+                    0,
+                    -40,
+                    -100
+                ]
+            },
+            {
+                "name": "cold",
+                "difficultyFixList": [
+                    0,
+                    -40,
+                    -100
+                ]
+            },
+            {
+                "name": "lightning",
+                "difficultyFixList": [
+                    0,
+                    -40,
+                    -100
+                ]
+            },
+            {
+                "name": "poison",
+                "difficultyFixList": [
+                    0,
+                    -40,
+                    -100
+                ]
+            },
+            {
+                "name": "bleeding",
+                "difficultyFixList": [
+                    0,
+                    -40,
+                    -100
+                ]
+            },
+            {
+                "name": "life",
+                "difficultyFixList": [
+                    0,
+                    -40,
+                    -100
+                ]
+            },
+            {
+                "name": "pierce",
+                "difficultyFixList": [
+                    0,
+                    -40,
+                    -100
+                ]
+            },
+            {
+                "name": "physical",
+                "difficultyFixList": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "name": "dodge",
+                "difficultyFixList": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "name": "deflectProjectile",
+                "difficultyFixList": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "name": "stun",
+                "difficultyFixList": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+    },
+    "equipment": {
+        "amulet": [
+            "ArmorJewelry_Amulet"
+        ],
+        "ring": [
+            "ArmorJewelry_Ring"
+        ],
+        "head": [
+            "ArmorProtective_Head"
+        ],
+        "arm": [
+            "ArmorProtective_Forearm"
+        ],
+        "leg": [
+            "ArmorProtective_LowerBody"
+        ],
+        "torse": [
+            "ArmorProtective_UpperBody"
+        ],
+        "leftHand": [
+            "WeaponArmor_Shield"
+        ],
+        "rightHand": [
+            "WeaponHunting_Bow",
+            "WeaponHunting_Spear",
+            "WeaponMagical_Staff",
+            "WeaponMelee_Axe",
+            "WeaponMelee_Mace",
+            "WeaponMelee_Sword",
+            "WeaponHunting_RangedOneHand"
+        ],
+        "artifact": [
+            "ItemArtifact"
+        ]
+    },
+    "dualWeapon": false,
+    "dualWeaponList": [
+        "WeaponMelee_Axe",
+        "WeaponMelee_Mace",
+        "WeaponMelee_Sword",
+        "WeaponHunting_RangedOneHand"
+    ],
+    "artifactBonusList": "ItemArtifactFormula",
+    "renderEquipmentName" : {
+        "ArmorJewelry_Amulet": "项链",
+        "ArmorJewelry_Ring": "戒指",
+        "ArmorProtective_Forearm": "护手",
+        "ArmorProtective_Head": "头部",
+        "ArmorProtective_LowerBody": "护腿",
+        "ArmorProtective_UpperBody": "身躯",
+        "ItemArtifact": "神器",
+        "ItemArtifactFormula": "神器奖励",
+        "ItemCharm": "符咒",
+        "ItemRelic": "遗物",
+        "OneShot_Scroll": "卷轴",
+        "WeaponArmor_Shield": "盾牌",
+        "WeaponHunting_Bow": "弓",
+        "WeaponHunting_RangedOneHand": "掷",
+        "WeaponHunting_Spear": "矛",
+        "WeaponMagical_Staff": "杖",
+        "WeaponMelee_Axe": "斧",
+        "WeaponMelee_Mace": "锤",
+        "WeaponMelee_Sword": "剑"
+    },
+    "renderPropsName" : {
+        "augmentAllLevel": "所有技能",
+        "defensivePhysical": "物理抗性",
+        "characterAttackSpeedModifier": "攻速",
+        "characterDeflectProjectile": "远闪",
+        "characterDodgePercent": "近闪",
+        "characterOffensiveAbilityModifier": "OA",
+        "characterDefensiveAbilityModifier": "DA",
+        "offensivePhysicalModifier": "物理伤害",
+        "offensiveElementalModifier": "元素伤害",
+        "offensiveTotalDamageModifier": "所有伤害",
+        "skillCooldownReduction": "冷却时间",
+        "characterLifeModifier": "生命",
+        "skillProjectileSpeedModifier": "投射速度",
+        "characterTotalSpeedModifier": "全部速度",
+        "characterDefensiveAbility": "点数DA",
+        "defensiveSleep": "昏睡抗性",
+        "defensiveStun": "晕眩抗性",
+        "characterLife": "点数生命",
+        "characterOffensiveAbility": "点数OA",
+        "characterStrength": "力量点数",
+        "defensiveFreeze": "减少冰冻持续时间",
+        "defensiveTrap": "减少陷阱持续时间",
+        "characterIncreasedExperience": "经验",
+        "defensivePoison": "毒素抗性",
+        "characterStrengthModifier": "力量",
+        "characterDexterity": "点数敏捷",
+        "defensiveFire": "火焰抗性",
+        "defensiveProtectionModifier": "护甲防御",
+        "defensiveDisruption": "技能中断保护",
+        "defensiveElementalResistance": "元素抗性",
+        "defensiveLife": "活力抗性",
+        "defensivePierce": "穿刺抗性",
+        "defensiveBleeding": "流血抗性",
+        "defensiveCold": "冰冷抗性",
+        "defensiveLightning": "闪电抗性",
+        "characterIntelligence": "点数智力",
+        "offensiveSlowColdModifier": "冰冻伤害",
+        "offensiveColdModifier": "冰冷伤害",
+        "offensiveFireModifier": "火焰伤害",
+        "offensiveSlowFireModifier": "燃烧伤害",
+        "offensiveLifeLeech": "伤害吸血",
+        "characterDexterityModifier": "敏捷",
+        "petBonus": "宠物加成"
+    },
+    "renderRequirementName": {
+        "levelRequirement": "等级",
+        "strengthRequirement" : "力量",
+        "dexterityRequirement": "敏捷",
+        "intelligenceRequirement": "智力"
+    },
+    "renderBasePropsName" : {
+        "offensivePhysical": "物理伤害",
+        "offensiveBaseLightning": "基础电伤",
+        "offensiveBaseLife": "基础活力伤",
+        "offensiveBaseFire": "基础火伤",
+        "offensiveBaseCold": "基础冰伤",
+        "offensivePierceRatio": "穿刺转换",
+        "characterAttackSpeed": "攻速",
+        "offensiveGlobalChance": "几率混伤"
+    },
+    "renderClassification": {
+        "传说": "紫装",
+        "史诗": "蓝装",
+        "稀有的": "特绿"
+    },
+    "tempEquipmentTypeBlackList" : ["ItemArtifactFormula", "ItemCharm", "ItemRelic", "OneShot_Scroll"],
+    "tempPorpSelectorList" : ["augmentAllLevel", "defensivePhysical", "defensiveElementalResistance", "characterAttackSpeedModifier", "characterDeflectProjectile", "characterDodgePercent", "defensivePoison", "defensiveLife", "defensivePierce", "defensiveBleeding", "defensiveFire", "defensiveCold", "defensiveLightning", "defensiveSleep", "defensiveStun", "characterLifeModifier", "petBonus", "characterIncreasedExperience"]
+}
