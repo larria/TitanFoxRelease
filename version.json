@@ -3,6 +3,7 @@
     "change": [
         {
             "type": "feature",
+            "typeName": "功能性",
             "list": [
                 "Android版/IOS版添加APP更新提示",
                 "补充高阶神器合成信息",
@@ -15,15 +16,24 @@
         },
         {
             "type": "ui",
+            "typeName": "UI",
             "list": [
-                "UI细节美化"
+                "部分UI细节美化"
             ]
         },
         {
             "type": "bug",
+            "typeName": "Bug修复",
             "list": [
                 "修正火焰国地图不显示问题",
                 "修正搜索符咒、遗物与宠物加成时结果不合理问题"
+            ]
+        },
+        {
+            "type": "other",
+            "typeName": "其它细节",
+            "list": [
+                "为TQDB项目加上链接"
             ]
         }
     ]
