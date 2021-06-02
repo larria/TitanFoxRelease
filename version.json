@@ -44,5 +44,6 @@
         "baiduPanVerify": "dkhc",
         "url": null
     },
-    "ext" : null
+    "ext" : null,
+    "webURL": "http://tqfox.surge.sh/"
 }
