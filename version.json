@@ -25,6 +25,7 @@
             "type": "bug",
             "typeName": "Bug修复",
             "list": [
+                "将盾牌格挡属性、盾牌物理伤害、护甲值划为基础属性",
                 "修正火焰国地图不显示问题",
                 "修正搜索符咒、遗物与宠物加成时结果不合理问题"
             ]
@@ -37,5 +38,10 @@
             ]
         }
     ],
+    "download": {
+        "baiduPanDownloadURL": "https://pan.baidu.com/s/1wvcPOrj-oXEddB08LxEYYA",
+        "baiduPanVerify": "dkhc",
+        "url": "https://larria.github.io/TitanFoxRelease/app-release.apk"
+    },
     "ext" : ""
 }
