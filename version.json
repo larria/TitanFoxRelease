@@ -40,9 +40,9 @@
     "webURL": "http://tqfox.surge.sh/",
     "dialog": {
         "type": "alert",
-        "enable": false,
+        "enable": true,
         "force": false,
-        "title": "欢迎体验",
+        "title": "请升级Titan Fox v0.9.3 AE试用版",
         "cont1": {
             "text": "如有建议或bug反馈，请联系作者"
         },
