@@ -37,5 +37,11 @@
         "url": null
     },
     "ext" : null,
-    "webURL": "http://tqfox.surge.sh/"
+    "webURL": "http://tqfox.surge.sh/",
+    "dialog": {
+        "enable": false,
+        "force": false,
+        "title": "欢迎体验",
+        "cont": "如有建议或bug反馈，请联系作者：B站 灵狐心月"
+    }
 }
