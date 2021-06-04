@@ -27,7 +27,7 @@
             "type": "other",
             "typeName": "其它细节",
             "list": [
-                "为TQDB项目加上链接"
+                "添加遗漏的地图原作者 jlixjtu"
             ]
         }
     ],
@@ -36,14 +36,19 @@
         "baiduPanVerify": "dkhc",
         "url": null
     },
-    "ext" : null,
+    "ext": null,
     "webURL": "http://tqfox.surge.sh/",
     "dialog": {
         "type": "alert",
         "enable": false,
         "force": false,
         "title": "欢迎体验",
-        "cont1": "如有建议或bug反馈，请联系作者",
-        "cont2": "B站 灵狐心月"
+        "cont1": {
+            "text": "如有建议或bug反馈，请联系作者"
+        },
+        "cont2": {
+            "text": "B站 灵狐心月",
+            "url": "https://m.bilibili.com/video/BV15B4y1u7Dr"
+        }
     }
 }
