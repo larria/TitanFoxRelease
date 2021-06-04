@@ -42,11 +42,14 @@
         "type": "alert",
         "enable": true,
         "force": false,
-        "title": "请升级Titan Fox v0.9.3 AE试用版",
+        "title": "发现新版本 v0.9.3 AE",
         "cont1": {
-            "text": "如有建议或bug反馈，请联系作者"
+            "text": "请点击右上角查看新版本功能，欢迎您升级APP，使用更多功能"
         },
         "cont2": {
+            "text": "如有建议或bug反馈，请联系作者"
+        },
+        "cont3": {
             "text": "B站 灵狐心月",
             "url": "https://m.bilibili.com/video/BV15B4y1u7Dr"
         }
