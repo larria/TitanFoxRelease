@@ -39,6 +39,7 @@
     "ext" : null,
     "webURL": "http://tqfox.surge.sh/",
     "dialog": {
+        "type": "alert",
         "enable": false,
         "force": false,
         "title": "欢迎体验",
