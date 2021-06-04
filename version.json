@@ -43,6 +43,7 @@
         "enable": false,
         "force": false,
         "title": "欢迎体验",
-        "cont": "如有建议或bug反馈，请联系作者：B站 灵狐心月"
+        "cont1": "如有建议或bug反馈，请联系作者",
+        "cont2": "B站 灵狐心月"
     }
 }
