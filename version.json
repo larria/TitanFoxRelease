@@ -54,5 +54,39 @@
             "text": "B站 灵狐心月",
             "url": "https://m.bilibili.com/video/BV15B4y1u7Dr"
         }
+    },
+    "dialogShowOnce": {
+        "id": "1623035894569",
+        "type": "alert",
+        "enable": false,
+        "force": false,
+        "title": "发现新版本 v0.9.3 AE",
+        "cont1": {
+            "text": "请点击右上角查看新版本功能，欢迎您升级APP，使用更多功能"
+        },
+        "cont2": {
+            "text": "如有建议或bug反馈，请联系作者"
+        },
+        "cont3": {
+            "text": "B站 灵狐心月",
+            "url": "https://m.bilibili.com/video/BV15B4y1u7Dr"
+        }
+    },
+    "dialogVersion": {
+        "disableVersion": "0.9.2",
+        "type": "alert",
+        "enable": false,
+        "force": false,
+        "title": "发现新版本 v0.9.3 AE",
+        "cont1": {
+            "text": "请点击右上角查看新版本功能，欢迎您升级APP，使用更多功能"
+        },
+        "cont2": {
+            "text": "如有建议或bug反馈，请联系作者"
+        },
+        "cont3": {
+            "text": "B站 灵狐心月",
+            "url": "https://m.bilibili.com/video/BV15B4y1u7Dr"
+        }
     }
 }
