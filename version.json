@@ -5,8 +5,8 @@
             "type": "feature",
             "typeName": "功能性",
             "list": [
-                "怪物版块施工完成！",
-                "装备搜索功能新增‘百分比物理伤害’、‘百分比穿刺伤害’、‘百分比元素伤害’属性选项",
+                "怪物版块施工完成！！！^_^",
+                "装备搜索功能新增‘百分比物理伤害’属性选项",
                 "地图可以手势放得更大（2.5倍=>8倍）"
             ]
         },
@@ -14,7 +14,8 @@
             "type": "ui",
             "typeName": "UI",
             "list": [
-                "部分UI细节美化"
+                "部分UI细节美化",
+                "统一弹窗风格"
             ]
         },
         {
@@ -28,7 +29,8 @@
             "type": "other",
             "typeName": "其它细节",
             "list": [
-                "添加遗漏的地图原作者 jlixjtu"
+                "添加遗漏的地图原作者 jlixjtu",
+                "如无法查看掉落信息的装备，提示原因"
             ]
         }
     ],
@@ -41,7 +43,7 @@
     "webURL": "http://tqfox.surge.sh/",
     "dialog": {
         "type": "alert",
-        "enable": true,
+        "enable": false,
         "force": false,
         "title": "发现新版本 v0.9.3 AE",
         "cont1": {
@@ -58,24 +60,7 @@
     "dialogShowOnce": {
         "id": "1623035894569",
         "type": "alert",
-        "enable": false,
-        "force": false,
-        "title": "发现新版本 v0.9.3 AE",
-        "cont1": {
-            "text": "请点击右上角查看新版本功能，欢迎您升级APP，使用更多功能"
-        },
-        "cont2": {
-            "text": "如有建议或bug反馈，请联系作者"
-        },
-        "cont3": {
-            "text": "B站 灵狐心月",
-            "url": "https://m.bilibili.com/video/BV15B4y1u7Dr"
-        }
-    },
-    "dialogVersion": {
-        "disableVersion": "0.9.2",
-        "type": "alert",
-        "enable": false,
+        "enable": true,
         "force": false,
         "title": "发现新版本 v0.9.3 AE",
         "cont1": {
