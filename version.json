@@ -6,7 +6,7 @@
             "typeName": "功能性",
             "list": [
                 "怪物版块施工完成！！！^_^",
-                "装备搜索功能新增‘百分比物理伤害’属性选项",
+                "装备搜索功能新增‘百分比物理伤害’属性选项（感谢 Fallendeva 提醒）",
                 "地图可以手势放得更大（2.5倍=>8倍）"
             ]
         },
@@ -22,7 +22,7 @@
             "type": "bug",
             "typeName": "Bug修复",
             "list": [
-                "修正巴比伦地图Android竖屏状态不能显示的问题"
+                "修正巴比伦地图Android竖屏状态不能显示的问题（感谢群友 清风、landyhwee 提醒）"
             ]
         },
         {
@@ -30,7 +30,7 @@
             "typeName": "其它细节",
             "list": [
                 "添加遗漏的地图原作者 jlixjtu",
-                "如无法查看掉落信息的装备，提示原因"
+                "如无法查看掉落信息的装备，会提示原因"
             ]
         }
     ],
@@ -41,6 +41,7 @@
     },
     "ext": null,
     "webURL": "http://tqfox.surge.sh/",
+    "contactURL": "https://m.bilibili.com/video/BV15B4y1u7Dr",
     "dialog": {
         "type": "alert",
         "enable": false,
