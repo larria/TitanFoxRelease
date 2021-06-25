@@ -3,7 +3,7 @@
     "游戏机制": [
       {
         "title": "全部专精（职业）",
-        "md": "![image](https://www.hualigs.cn/image/60d472802504e.jpg)"
+        "md": "![image](https://www.hualigs.cn/image/60d472802504e.jpg)\n\n### 风暴专精（Storm Mastery）\n\n单一专精：风暴召唤者（Stormcaller）\n\n　　+大地专精：元素师（Elementalist）\n\n　　+战斗专精：领主（Thane）\n\n　　+死灵专精：神使（Oracle）\n\n　　+防御专精：圣武士（Paladin）\n\n　　+自然专精：德鲁伊（Druid）\n\n　　+狩猎专精：贤者（Sage）\n\n　　+盗贼专精：术士（Sorcerer）\n\n　　+符文专精：雷吼者（Thunderer）\n\n### 大地专精（Earth Mastery）\n\n　　单一专精：火占师（Pyromancer）\n\n　　+战斗专精：战法师（Battlemage）\n\n　　+死灵专精：妖术师（Conjurer）\n\n　　+防御专精：主宰者（Juggernaut）\n\n　　+自然专精：召唤者（Summoner）\n\n　　+狩猎专精：复仇者（Avenger）\n\n　　+盗贼专精：魔术师（Magician）\n\n　　+符文专精：石语者（Stonespeaker）\n\n### 战斗专精（Warfare Mastery）\n\n　　单一专精：战士（Warrior）\n\n　　+死灵专精：破法士（Spellbreaker）\n\n　　+防御专精：征服者（Conqueror）\n\n　　+自然专精：斗士（Champion）\n\n　　+狩猎专精：屠宰者（Slayer）\n\n　　+盗贼专精：刺客（Assassin）\n\n　　+符文专精：狂战士（Berserker）\n\n### 死灵专精（Spirit Mastery）\n\n　　单一专精：巫术师（Theurgist）\n\n　　+防御专精：演说家（Spellbinder）\n\n　　+自然专精：预言家（Soothsayer）\n\n　　+狩猎专精：骷髅巫师（Bone Charmer）\n\n　　+盗贼专精：法术士（Warlock）\n\n　　+符文专精：萨满（Shaman）\n\n### 防御专精（Defense Mastery）\n\n　　单一专精：防御者（Defender）\n\n　　+自然专精：保护者（Guardian）\n\n　　+狩猎专精：看守者（Warden）\n\n　　+盗贼专精：海盗（Corsair）\n\n　　+符文专精：符文铁匠（Runesmith）\n\n### 自然专精（Nature Mastery）\n\n　　单一专精：漫游者（Wanderer）\n\n　　+狩猎专精：巡林客（Ranger）\n\n　　+盗贼专精：幻术家（Illusionist）\n\n　　+符文专精：易形者（Skinchanger）\n\n### 狩猎专精（Hunting Mastery）\n\n　　单一专精：猎人（Hunter）\n\n　　+盗贼专精：强盗（Brigand）\n\n　　+符文专精：猎龙者（Dragonhunter）\n\n### 盗贼专精（Rogue Mastery）\n\n　　单一专精：盗贼（Rogue）\n\n　　+符文专精：魔法师（Trickster）\n\n### 符文专精贼专精（Runemaster Mastery）\n\n　　单一专精：符文大师（Runemaster）"
       },
       {
         "title": "奖励永久属性的支线",
@@ -15,11 +15,15 @@
       },
       {
         "title": "各种属性的上限",
-        "md": "- 移动速度：`166`\n- 施展速度：`300`\n- 攻击速度：\n    - 近战双持：`199`\n    - 近战单持：`222`\n    - 投掷双持：`141`\n    - 投掷单持：`208`\n    - 法杖：`240`\n    - 空手：`300`\n- 各种抗性：`80`（仅对玩家人物角色生效）\n- 近闪：`80`（仅对玩家人物角色生效）\n- 远闪：`80`（仅对玩家人物角色生效）\n- 减CD：`80`（仅对玩家人物角色生效）\n\n> 推荐参考：[游戏机制研究之：攻速那些事](https://tieba.baidu.com/p/6611540082#/)，作者：gx16377"
+        "md": "- 移动速度：`166`\n- 施展速度：`300`\n- 攻击速度：\n    - 近战双持：`199`\n    - 近战单持：`222`\n    - 投掷双持：`141`\n    - 投掷单持：`208`\n    - 法杖：`240`\n    - 空手：`300`\n- 各种抗性：`80`（仅对玩家人物角色生效）\n- 近闪：`80`（仅对玩家人物角色生效）\n- 远闪：`80`（仅对玩家人物角色生效）\n- 减CD：`80`（仅对玩家人物角色生效）\n\n> 攻击速度机制，推荐参考：贴吧-[游戏机制研究之：攻速那些事](https://tieba.baidu.com/p/6611540082#/)，作者：gx16377"
+      },
+      {
+        "title": "攻击能力（OA）与防御能力（DA）",
+        "md": "![image](https://www.hualigs.cn/image/60d4728013394.jpg)"
       },
       {
         "title": "伤害类型与种族克制关系",
-        "md": "![image](https://www.hualigs.cn/image/60d4728013394.jpg)"
+        "md": "攻击能力和防御能力是游戏中人物和怪物的两个基本属性\n    - 攻击能力：英文 Offensive Ability，简称`OA`\n    - 防御能力：英文 Defensive ability，简称`DA`\n\n发动近战攻击时，攻击方的OA和被攻击方的DA决定了攻击的命中率，攻击伤害的修正(暴击或者伤害惩罚)，同时影响被攻击方的格挡几率。\n\n> 详细机制推荐参考：贴吧-[攻击能力和防御能力的研究](https://tieba.baidu.com/p/6896993887#/)，作者：風不渡\n\n> 以下引用部分结论，供游戏时参考\n\n`传奇难度第4幕人物DA应该保证加到850以上，第5幕DA应该加到1000以上，上不封顶，越高越好。在2750的DA以内，每一点DA的性价比都是越来越高的。`\n`至于人物OA，第4幕830第5幕980，可以保证百分百命中。要想获得较好的暴击率，应分别加到1330和1480以上，此时人物有1/3的最大暴击概率。 OA的性价比是越加越低的，但是为了暴击率还是得加，个人认为在1600以内OA都是值得加高的`"
       },
       {
         "title": "降抗机制的详细解析",
