@@ -1,8 +1,8 @@
-#spellname{
-font-weight:bold;font-size:10pt;color:white;font-family:Times New Roman,"ËÎÌå"
+ï»¿#spellname{
+font-weight:bold;font-size:10pt;color:white;font-family:Times New Roman,"å®‹ä½“"
 }
 #pointsremaining{
-font-size:9pt;color:#ffffff;font-family:Times New Roman,"ËÎÌå";text-align:center
+font-size:9pt;color:#ffffff;font-family:Times New Roman,"å®‹ä½“";text-align:center
 }
 #masteryname{
 font-weight:bold;font-size:14pt;color:#ffa500
@@ -62,40 +62,40 @@ border:#7b7252 1px solid
 border:solid 1px #7b7252
 }
 #spells{
-color:#ffffff;width:80%;font-size:9pt;font-family:Times New Roman,"ËÎÌå";width:95%;padding:10px
+color:#ffffff;width:80%;font-size:9pt;font-family:Times New Roman,"å®‹ä½“";width:95%;padding:10px
 }
 #pageheader{
-font-weight:bolder;font-size:15pt;color:#ffa500;font-family:Times New Roman,"ËÎÌå"
+font-weight:bolder;font-size:15pt;color:#ffa500;font-family:Times New Roman,"å®‹ä½“"
 }
 #specialdesc{
 color:#C0C0BE;font-size:9pt
 }
 #spelldesc{
-font-size:9pt;color:#ffffff;font-family:Times New Roman,"ËÎÌå"
+font-size:9pt;color:#ffffff;font-family:Times New Roman,"å®‹ä½“"
 }
 #currentspell{
-font-size:9pt;color:#ffffff;font-family:Times New Roman,"ËÎÌå"
+font-size:9pt;color:#ffffff;font-family:Times New Roman,"å®‹ä½“"
 }
 #nextspell{
-font-size:9pt;color:#999999;font-family:Times New Roman,"ËÎÌå"
+font-size:9pt;color:#999999;font-family:Times New Roman,"å®‹ä½“"
 }
 #spelllistingheader{
-font-weight:bold;font-size:10pt;color:#ffffff;font-family:Times New Roman,"ËÎÌå"
+font-weight:bold;font-size:10pt;color:#ffffff;font-family:Times New Roman,"å®‹ä½“"
 }
 #currentranklevel{
-font-size:9pt;color:#fff52b;font-family:Times New Roman,"ËÎÌå"
+font-size:9pt;color:#fff52b;font-family:Times New Roman,"å®‹ä½“"
 }
 #tip{
 border:1px solid #c9a03b;padding:5px;filter:alpha(opacity=80);width:250px;position:absolute;background-color:#1c1911;
 }
 #prereq{
-font-size:9pt;color:#40ff40;font-family:Times New Roman,"ËÎÌå"
+font-size:9pt;color:#40ff40;font-family:Times New Roman,"å®‹ä½“"
 }
 #nextranklevel{
-font-size:9pt;color:#fff52b;font-family:Times New Roman,"ËÎÌå"
+font-size:9pt;color:#fff52b;font-family:Times New Roman,"å®‹ä½“"
 }
 td{
-font-size:9pt;color:#dcfef8;font-family:Times New Roman,"ËÎÌå"
+font-size:9pt;color:#dcfef8;font-family:Times New Roman,"å®‹ä½“"
 }
 .b40pt{
 background-color:#48422b;color:#ffffff;border-top:1px solid #dcfef8;border-left:1px solid #dcfef8;border-right:1px solid #dcfef8;border-bottom:none

@@ -1,4 +1,4 @@
-var _SkillLevel = new Array()
+ï»¿var _SkillLevel = new Array()
 var UserSkills = new Array();
 var _TotalPoints = 222;
 var isIE	= document.all;
@@ -19,14 +19,14 @@ this.SkillLevel = new Array(22)
 function GetModeSet(){
     var temp;
     temp = document.getElementById( "modeset").value;
-    ModeSet = parseInt(temp);				//µÃµ½ÁĞ±í¸Ä±äºóµÄÖµ
+    ModeSet = parseInt(temp);				//å¾—åˆ°åˆ—è¡¨æ”¹å˜åçš„å€¼
 }
 
 function GetSkillReward(){
     RewardPointsOld = RewardPoints;
     var temp;
     temp = document.getElementById( "rewards").value;
-    RewardPoints = parseInt(temp);				//µÃµ½ÁĞ±í¸Ä±äºóµÄÖµ
+    RewardPoints = parseInt(temp);				//å¾—åˆ°åˆ—è¡¨æ”¹å˜åçš„å€¼
     if (RewardPoints > RewardPointsOld){
         AddPointSkillReward();
     }
@@ -90,7 +90,7 @@ function GetSkillBuff(masteryid){
         default:
             temp = document.getElementById( "num10").value;
     }
-    SkillBuff[masteryid] = parseInt(temp);//µÃµ½ÁĞ±í¸Ä±äºóµÄÖµ
+    SkillBuff[masteryid] = parseInt(temp);//å¾—åˆ°åˆ—è¡¨æ”¹å˜åçš„å€¼
     if (SkillBuff[masteryid] > SkillBuffOld[masteryid]){
         AddPointSkillBuff(masteryid);
     }
@@ -156,7 +156,7 @@ function RemovePointSkillBuff(masteryid){
 
 function SetPage(masteryid,bolReset) {
     if (bolReset) {
-        if (!confirm('ÄãÈ·ÊµÒªÖØÖÃ' + Mastery[masteryid].masteryname + '×¨¾«Âğ£¿')) { return false;}
+        if (!confirm('ä½ ç¡®å®è¦é‡ç½®' + Mastery[masteryid].masteryname + 'ä¸“ç²¾å—ï¼Ÿ')) { return false;}
         _TotalPoints = parseInt(_TotalPoints) + parseInt(_SkillLevel[masteryid])
         var TotalPoints = 0
         for (var y = 0 ; y < UserSkills[masteryid].SkillLevel.length; y++) {
@@ -265,20 +265,20 @@ function UpdateSkillStats(masteryid) {
                 RewardRemainPoints = 0;
             }
             var PointsTemp = _TotalPoints + RewardRemainPoints;
-            var UpdateText = "Ê£Óà¼¼ÄÜµãÊı£½" + PointsTemp;
+            var UpdateText = "å‰©ä½™æŠ€èƒ½ç‚¹æ•°ï¼" + PointsTemp;
             var PointsLvTemp = PointsTemp;
             if (PointsLvTemp > 222){
                 PointsLvTemp = 222;
             }
             if (PointsLvTemp < -30){
                 if (flag){
-                    alert("ÒÑ´ïµ½ÓÎÏ·Éè¶¨µÄ½ÇÉ«×î¸ßµÈ¼¶£¡ÇëÏ´È¥²¿·ÖÒÑ·ÖÅä¼¼ÄÜµãÖ±ÖÁ¿ÉÓÃ¼¼ÄÜµãÊı>=-30");
+                    alert("å·²è¾¾åˆ°æ¸¸æˆè®¾å®šçš„è§’è‰²æœ€é«˜ç­‰çº§ï¼è¯·æ´—å»éƒ¨åˆ†å·²åˆ†é…æŠ€èƒ½ç‚¹ç›´è‡³å¯ç”¨æŠ€èƒ½ç‚¹æ•°>=-30");
                     flag = 0;
                 }
-                UpdateText = UpdateText + "¡¡¹À¼Æ½ÇÉ«µÈ¼¶£º" + parseInt(85);
+                UpdateText = UpdateText + "ã€€ä¼°è®¡è§’è‰²ç­‰çº§ï¼š" + parseInt(85);
             }
             else
-                UpdateText = UpdateText + "¡¡¹À¼Æ½ÇÉ«µÈ¼¶£º" + parseInt(Math.ceil((222 - PointsLvTemp)/3) + 1);
+                UpdateText = UpdateText + "ã€€ä¼°è®¡è§’è‰²ç­‰çº§ï¼š" + parseInt(Math.ceil((222 - PointsLvTemp)/3) + 1);
 
             document.getElementById("pointsremaining_" + x).innerHTML =  UpdateText;
         }
@@ -294,9 +294,9 @@ function UpdateSkillStats(masteryid) {
             }
         }
         if (document.getElementById("masterypoints_" + x)) {
-            var UpdateText = "ÒÑ·ÖÅä¾«Í¨¼¼ÄÜµãÊı£½" + _SkillLevel[x]
-            UpdateText = UpdateText +  "¡¡ÒÑ·ÖÅä×¨¾«¼¼ÄÜµãÊı£½" + TotalPoints;
-            UpdateText = UpdateText + "¡¡¼¼ÄÜÏµ×Ü¼Æ·ÖÅäµãÊı£½" + parseInt(parseInt(_SkillLevel[x]) + parseInt(TotalPoints))
+            var UpdateText = "å·²åˆ†é…ç²¾é€šæŠ€èƒ½ç‚¹æ•°ï¼" + _SkillLevel[x]
+            UpdateText = UpdateText +  "ã€€å·²åˆ†é…ä¸“ç²¾æŠ€èƒ½ç‚¹æ•°ï¼" + TotalPoints;
+            UpdateText = UpdateText + "ã€€æŠ€èƒ½ç³»æ€»è®¡åˆ†é…ç‚¹æ•°ï¼" + parseInt(parseInt(_SkillLevel[x]) + parseInt(TotalPoints))
             document.getElementById("masterypoints_" + x).innerHTML =  UpdateText;
         }
     }
@@ -377,19 +377,19 @@ function GetSpellText(masteryid,skillid) {
         strHTML = "<div id='spellname'>" + Mastery[masteryid].Skills[skillid].name + "</div></B>"
         strHTML = strHTML + "<div id='spelldesc'>" + Mastery[masteryid].Skills[skillid].desc + "</div><BR>"
         if (rankid > 0) {
-            strHTML = strHTML + "<div id='currentranklevel'>µ±Ç°µÈ¼¶£º" + (rankid) + "</div>"
+            strHTML = strHTML + "<div id='currentranklevel'>å½“å‰ç­‰çº§ï¼š" + (rankid) + "</div>"
             strHTML = strHTML + "<div id='currentspell'>" + Mastery[masteryid].Skills[skillid].spells[rankid].spellinfo.replace(/,/g,"<br>") + "</div><BR>"
         }
         if (Mastery[masteryid].Skills[skillid].spells[rankid + 1]) {
-            strHTML = strHTML + "<div id='nextranklevel'>ÏÂÒ»µÈ¼¶£º" + (rankid + 1) + "</div>"
+            strHTML = strHTML + "<div id='nextranklevel'>ä¸‹ä¸€ç­‰çº§ï¼š" + (rankid + 1) + "</div>"
             strHTML = strHTML + "<div id='nextspell'>" + Mastery[masteryid].Skills[skillid].spells[rankid + 1].spellinfo.replace(/,/g,"<br>") + "</div>"
         }
         if (Mastery[masteryid].Skills[skillid].prereq >= 0 ) {
             if ( UserSkills[masteryid].SkillLevel[Mastery[masteryid].Skills[skillid].prereq] > 0 ) {
-                strHTML = strHTML + "<BR><div id='prereq'>ĞèÒª¼¼ÄÜ£º" + Mastery[masteryid].Skills[Mastery[masteryid].Skills[skillid].prereq].name + "</div>"
+                strHTML = strHTML + "<BR><div id='prereq'>éœ€è¦æŠ€èƒ½ï¼š" + Mastery[masteryid].Skills[Mastery[masteryid].Skills[skillid].prereq].name + "</div>"
             }
         else {
-            strHTML = strHTML + "<BR><div id='prereq'><font color=red>ĞèÒª¼¼ÄÜ£º" + Mastery[masteryid].Skills[Mastery[masteryid].Skills[skillid].prereq].name + "</div>"
+            strHTML = strHTML + "<BR><div id='prereq'><font color=red>éœ€è¦æŠ€èƒ½ï¼š" + Mastery[masteryid].Skills[Mastery[masteryid].Skills[skillid].prereq].name + "</div>"
         }
     }
     return strHTML
@@ -414,73 +414,73 @@ function GetSkillLevelText(masteryid) {
     if (masteryid == 1){
         var strHTML = ""
         strHTML = "<div id='spellname'>" + Mastery[masteryid].masteryname + "</div>"
-        var strHTML = strHTML + "<div id='currentspell'>"  + "ÓÃÔ¶¹ÅÖ®·¨¶ÍÁ¶ÄãµÄÍ·ÄÔºÍÁé»ê£¬ÁîÄã¿ÉÒÔ¿ØÖÆÑÒÊ¯ºÍ»ğÑæ£¬ÊÍ·ÅÀ´×Ô´óµØµÄÉñÃØÁ¦Á¿¡£" + "</div>"
+        var strHTML = strHTML + "<div id='currentspell'>"  + "ç”¨è¿œå¤ä¹‹æ³•é”»ç‚¼ä½ çš„å¤´è„‘å’Œçµé­‚ï¼Œä»¤ä½ å¯ä»¥æ§åˆ¶å²©çŸ³å’Œç«ç„°ï¼Œé‡Šæ”¾æ¥è‡ªå¤§åœ°çš„ç¥ç§˜åŠ›é‡ã€‚" + "</div>"
     }
     else if (masteryid == 2){
         var strHTML = ""
         strHTML = "<div id='spellname'>" + Mastery[masteryid].masteryname + "</div>"
-        var strHTML = strHTML + "<div id='currentspell'>"  + "Í¨¹ıÉñÃØµÄÖªÊ¶ºÍ¾«ÉñÑµÁ·£¬Ñ§Ï°¿ØÖÆÍöÁéµÄºÚ°µÒÕÊõ¡£" + "</div>"
+        var strHTML = strHTML + "<div id='currentspell'>"  + "é€šè¿‡ç¥ç§˜çš„çŸ¥è¯†å’Œç²¾ç¥è®­ç»ƒï¼Œå­¦ä¹ æ§åˆ¶äº¡çµçš„é»‘æš—è‰ºæœ¯ã€‚" + "</div>"
     }
     else if (masteryid == 3){
         var strHTML = ""
         strHTML = "<div id='spellname'>" + Mastery[masteryid].masteryname + "</div>"
-        var strHTML = strHTML + "<div id='currentspell'>"  + "ÔÚ½üÉíÕ½¶·ÖĞÔì³É¾Ş´óÉËº¦ÊÇÕ½¶·×¨¾«ÁìÓòµÄÊØÔò¡£ÃÜ¼¯µÄ¾üÊÂÑµÁ·Ê¹ÈË¶Ô½£¡¢¸«Í·¼°´¸ÀàÎäÆ÷ÓµÓĞ¿ÉÅÂµÄÊìÁ·³Ì¶È¡£Ö÷ÒªÑµÁ·°üÀ¨ÎäÆ÷ÕÆÎÕ¡¢×¨¾«ÓÚµ¥ÊÖ»òË«ÊÖÕ½¶·£¬ÒÔ¼°ÆäËü¼ÓÇ¿ÉËº¦Êä³öµÄÕ½¶·¼¼ÇÉ¡£" + "</div>"
+        var strHTML = strHTML + "<div id='currentspell'>"  + "åœ¨è¿‘èº«æˆ˜æ–—ä¸­é€ æˆå·¨å¤§ä¼¤å®³æ˜¯æˆ˜æ–—ä¸“ç²¾é¢†åŸŸçš„å®ˆåˆ™ã€‚å¯†é›†çš„å†›äº‹è®­ç»ƒä½¿äººå¯¹å‰‘ã€æ–§å¤´åŠé”¤ç±»æ­¦å™¨æ‹¥æœ‰å¯æ€•çš„ç†Ÿç»ƒç¨‹åº¦ã€‚ä¸»è¦è®­ç»ƒåŒ…æ‹¬æ­¦å™¨æŒæ¡ã€ä¸“ç²¾äºå•æ‰‹æˆ–åŒæ‰‹æˆ˜æ–—ï¼Œä»¥åŠå…¶å®ƒåŠ å¼ºä¼¤å®³è¾“å‡ºçš„æˆ˜æ–—æŠ€å·§ã€‚" + "</div>"
     }
     else if (masteryid == 4){
         var strHTML = ""
         strHTML = "<div id='spellname'>" + Mastery[masteryid].masteryname + "</div>"
-        var strHTML = strHTML + "<div id='currentspell'>"  + "ÅàÑøÄÚÔÚµÄºÍĞ³ÓëÄÍĞÔ£¬Ñ§Ï°Ò°ÍâÉúÎïµÄÓïÑÔ£¬ÕÆÎÕÒş²ØÔÚ´ó×ÔÈ»Éî´¦µÄÁ¦Á¿¡£" + "</div>"
+        var strHTML = strHTML + "<div id='currentspell'>"  + "åŸ¹å…»å†…åœ¨çš„å’Œè°ä¸è€æ€§ï¼Œå­¦ä¹ é‡å¤–ç”Ÿç‰©çš„è¯­è¨€ï¼ŒæŒæ¡éšè—åœ¨å¤§è‡ªç„¶æ·±å¤„çš„åŠ›é‡ã€‚" + "</div>"
     }
     else if (masteryid == 5){
         var strHTML = ""
         strHTML = "<div id='spellname'>" + Mastery[masteryid].masteryname + "</div>"
-        var strHTML = strHTML + "<div id='currentspell'>"  + "Ñ§Ï°¼áÈÍºÍÇ¿½¡µÄ¼¼ÄÜ£¬±£»¤×Ô¼ººÍÃËÓÑµÄ°²È«¡£" + "</div>"
+        var strHTML = strHTML + "<div id='currentspell'>"  + "å­¦ä¹ åšéŸ§å’Œå¼ºå¥çš„æŠ€èƒ½ï¼Œä¿æŠ¤è‡ªå·±å’Œç›Ÿå‹çš„å®‰å…¨ã€‚" + "</div>"
     }
     else if (masteryid == 6){
         var strHTML = ""
         strHTML = "<div id='spellname'>" + Mastery[masteryid].masteryname + "</div>"
-        var strHTML = strHTML + "<div id='currentspell'>"  + "Í¨¹ıÉíÌåµÄÑµÁ·ºÍÒşÃØÖªÊ¶µÄÑ§Ï°³ÉÎªÒ»ÃûµÁÔô¡£" + "</div>"
+        var strHTML = strHTML + "<div id='currentspell'>"  + "é€šè¿‡èº«ä½“çš„è®­ç»ƒå’Œéšç§˜çŸ¥è¯†çš„å­¦ä¹ æˆä¸ºä¸€åç›—è´¼ã€‚" + "</div>"
     }
     else if (masteryid == 7){
         var strHTML = ""
         strHTML = "<div id='spellname'>" + Mastery[masteryid].masteryname + "</div>"
-        var strHTML = strHTML + "<div id='currentspell'>"  + "´«ÊÚ²¶Ê³µÄ¾«ËèºÍ±ØÒªµÄÁéÇÉÀ´Ñ§Ï°á÷ÁÔµÄ¼¼Êõ¡£" + "</div>"
+        var strHTML = strHTML + "<div id='currentspell'>"  + "ä¼ æˆæ•é£Ÿçš„ç²¾é«“å’Œå¿…è¦çš„çµå·§æ¥å­¦ä¹ ç‹©çŒçš„æŠ€æœ¯ã€‚" + "</div>"
     }
     else if (masteryid == 8){
         var strHTML = ""
         strHTML = "<div id='spellname'>" + Mastery[masteryid].masteryname + "</div>"
-        var strHTML = strHTML + "<div id='currentspell'>"  + "Í¨¹ıÒâÊ¶¿ØÖÆºÍ¼¯ÖĞ¾«ÉñµÄÑµÁ·ÊÍ·ÅÄãË¼Î¬Éî´¦´óµØÖ®ÁéµÄÇ±Á¦£¬Ñ§Ï°ÀûÓÃÇ¿´óµÄÌìºòÔªËØµÄÄÜÁ¦¡£" + "</div>"
+        var strHTML = strHTML + "<div id='currentspell'>"  + "é€šè¿‡æ„è¯†æ§åˆ¶å’Œé›†ä¸­ç²¾ç¥çš„è®­ç»ƒé‡Šæ”¾ä½ æ€ç»´æ·±å¤„å¤§åœ°ä¹‹çµçš„æ½œåŠ›ï¼Œå­¦ä¹ åˆ©ç”¨å¼ºå¤§çš„å¤©å€™å…ƒç´ çš„èƒ½åŠ›ã€‚" + "</div>"
     }
     else if (masteryid == 9){
         var strHTML = ""
-        strHTML = "<div id='spellname'>" + "ÃÎ»ÃÖ®¾³" + "</div>"
-        var strHTML = strHTML + "<div id='currentspell'>"  + "À©Õ¹¸Ğ¾õ£¬´ÓÃÎ¾³Éî´¦»ñÈ¡Á¦Á¿£¬ÔÚÏÖÊµÖĞ¾¡Õ¹ÄãµÄÒâÖ¾¡£" + "</div>"
+        strHTML = "<div id='spellname'>" + "æ¢¦å¹»ä¹‹å¢ƒ" + "</div>"
+        var strHTML = strHTML + "<div id='currentspell'>"  + "æ‰©å±•æ„Ÿè§‰ï¼Œä»æ¢¦å¢ƒæ·±å¤„è·å–åŠ›é‡ï¼Œåœ¨ç°å®ä¸­å°½å±•ä½ çš„æ„å¿—ã€‚" + "</div>"
     }
     else if (masteryid == 10){
         var strHTML = ""
         strHTML = "<div id='spellname'>" + Mastery[masteryid].masteryname + "</div>"
-        var strHTML = strHTML + "<div id='currentspell'>"  + "Ñ§Ï°·ûÎÄÖ®ÃÕ£¬Í¨¹ıÑµÁ·ÒÔ¿ØÖÆÕ½¶·ÖĞµÄÅ­»ğÄ§·¨¡£" + "</div>"
+        var strHTML = strHTML + "<div id='currentspell'>"  + "å­¦ä¹ ç¬¦æ–‡ä¹‹è°œï¼Œé€šè¿‡è®­ç»ƒä»¥æ§åˆ¶æˆ˜æ–—ä¸­çš„æ€’ç«é­”æ³•ã€‚" + "</div>"
     }
     if (_SkillLevel[masteryid] > 0) {
-        var strHTML = strHTML +  "<div id='currentranklevel'><BR>µ±Ç°µÈ¼¶£º" + _SkillLevel[masteryid] + "</div>"
+        var strHTML = strHTML +  "<div id='currentranklevel'><BR>å½“å‰ç­‰çº§ï¼š" + _SkillLevel[masteryid] + "</div>"
         var strHTML = strHTML + "<div id='currentspell'>"
-        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]].str > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]].str + " Á¦Á¿"  + "<BR>"
-        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]].inte > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]].inte + " ÖÇÁ¦" + "<BR>"
-        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]].dex > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]].dex + " Ãô½İ" + "<BR>"
-        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]].health > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]].health + " ÉúÃü" + "<BR>"
-        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]].energy > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]].energy + " ·¨Á¦" + "<BR>"
+        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]].str > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]].str + " åŠ›é‡"  + "<BR>"
+        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]].inte > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]].inte + " æ™ºåŠ›" + "<BR>"
+        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]].dex > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]].dex + " æ•æ·" + "<BR>"
+        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]].health > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]].health + " ç”Ÿå‘½" + "<BR>"
+        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]].energy > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]].energy + " æ³•åŠ›" + "<BR>"
         strHTML = strHTML + "</div>"
     }
     if (_SkillLevel[masteryid] + 1  <= 40) {
-        var strHTML = strHTML +  "<div id='currentranklevel'><BR>ÏÂÒ»µÈ¼¶£º" + (_SkillLevel[masteryid] + 1)  + "</div>"
+        var strHTML = strHTML +  "<div id='currentranklevel'><BR>ä¸‹ä¸€ç­‰çº§ï¼š" + (_SkillLevel[masteryid] + 1)  + "</div>"
         var strHTML = strHTML + "<div id='nextspell'>"
-        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].str > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].str + " Á¦Á¿"  + "<BR>"
-        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].inte > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].inte + " ÖÇÁ¦" + "<BR>"
-        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].dex > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].dex + " Ãô½İ" + "<BR>"
-        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].health > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].health + " ÉúÃü" + "<BR>"
-        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].energy > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].energy + " ·¨Á¦" + "<BR>"
+        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].str > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].str + " åŠ›é‡"  + "<BR>"
+        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].inte > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].inte + " æ™ºåŠ›" + "<BR>"
+        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].dex > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].dex + " æ•æ·" + "<BR>"
+        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].health > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].health + " ç”Ÿå‘½" + "<BR>"
+        if (Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].energy > 0) strHTML = strHTML + "+" + Mastery[masteryid].Attributes[_SkillLevel[masteryid]+1].energy + " æ³•åŠ›" + "<BR>"
         strHTML = strHTML + "</div>"
-        strHTML = strHTML + "<div id='pressadd'><BR>×ó¼üµã»÷Ôö¼Ó¼¼ÄÜµãÊı¡£ÓÒ¼üµã»÷¼õÉÙ¼¼ÄÜµãÊı¡£</div>"
+        strHTML = strHTML + "<div id='pressadd'><BR>å·¦é”®ç‚¹å‡»å¢åŠ æŠ€èƒ½ç‚¹æ•°ã€‚å³é”®ç‚¹å‡»å‡å°‘æŠ€èƒ½ç‚¹æ•°ã€‚</div>"
     }
     return strHTML
 }
@@ -555,7 +555,7 @@ function AddPoint(bolShft,masteryid,button,skillid) {
         return false;
     }
     if (_TotalPoints == -30) {
-        alert("ÒÑ´ïµ½ÓÎÏ·Éè¶¨µÄ½ÇÉ«×î¸ßµÈ¼¶£¡");
+        alert("å·²è¾¾åˆ°æ¸¸æˆè®¾å®šçš„è§’è‰²æœ€é«˜ç­‰çº§ï¼");
         return false;
     }
     var _TotalPointsTemp = _TotalPoints
@@ -590,7 +590,7 @@ function AddPoint(bolShft,masteryid,button,skillid) {
         }
     }
     if (_TotalPointsTemp < -30) {
-        alert("ÒÑ´ïµ½ÓÎÏ·Éè¶¨µÄ½ÇÉ«×î¸ßµÈ¼¶£¡");
+        alert("å·²è¾¾åˆ°æ¸¸æˆè®¾å®šçš„è§’è‰²æœ€é«˜ç­‰çº§ï¼");
         return false;
     }
     if (isNaN(UserSkills[masteryid].SkillLevel[skillid])) { UserSkills[masteryid].SkillLevel[skillid] = 0 }
@@ -639,7 +639,7 @@ function AddPoint(bolShft,masteryid,button,skillid) {
                 }
             }
             if (_TotalPoints == -30) {
-                alert("ÒÑ´ïµ½ÓÎÏ·Éè¶¨µÄ½ÇÉ«×î¸ßµÈ¼¶£¡");
+                alert("å·²è¾¾åˆ°æ¸¸æˆè®¾å®šçš„è§’è‰²æœ€é«˜ç­‰çº§ï¼");
                 return false;
             }
         }
@@ -701,7 +701,7 @@ function AddPoint(bolShft,masteryid,button,skillid) {
                 }
             }
             if (_TotalPoints == -30) {
-                alert("ÒÑ´ïµ½ÓÎÏ·Éè¶¨µÄ½ÇÉ«×î¸ßµÈ¼¶£¡");
+                alert("å·²è¾¾åˆ°æ¸¸æˆè®¾å®šçš„è§’è‰²æœ€é«˜ç­‰çº§ï¼");
                 return false;
             }
         }
@@ -774,7 +774,7 @@ function DrawSpellList() {
                     if (document.getElementById("verbose").checked) {
                         SpellList = SpellList + "<hr noshade size=1>"
                     }
-                    SpellList = SpellList + "<B>" + Mastery[y].Skills[x].name + "</B>£º£¨µÈ¼¶£º" + UserSkills[y].SkillLevel[x] + " / " + (Mastery[y].Skills[x].spells.length - 5) + "£©<BR>"
+                    SpellList = SpellList + "<B>" + Mastery[y].Skills[x].name + "</B>ï¼šï¼ˆç­‰çº§ï¼š" + UserSkills[y].SkillLevel[x] + " / " + (Mastery[y].Skills[x].spells.length - 5) + "ï¼‰<BR>"
                     if (document.getElementById("verbose").checked) {
                         SpellList = SpellList + Mastery[y].Skills[x].desc + "<BR>"
                         SpellList = SpellList + Mastery[y].Skills[x].spells[spellrank].spellinfo + "<BR>"
@@ -784,7 +784,7 @@ function DrawSpellList() {
             SpellList = SpellList + "<BR>"
         }
     }
-    if (!SpellFound) { SpellList = 'ÉĞÎ´Ñ¡È¡¼¼ÄÜ' }
+    if (!SpellFound) { SpellList = 'å°šæœªé€‰å–æŠ€èƒ½' }
     document.getElementById("spells").innerHTML = SpellList;
 //    UpdateLinkBack()
 }
