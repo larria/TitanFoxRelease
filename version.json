@@ -45,6 +45,7 @@
     "ext": null,
     "webURL": "http://tqfox.surge.sh/",
     "contactURL": "https://m.bilibili.com/video/BV15B4y1u7Dr",
+    "contactScheme": "bilibili://video/BV15B4y1u7Dr",
     "dialog": {
         "type": "alert",
         "enable": false,
