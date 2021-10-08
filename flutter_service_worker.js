@@ -3,28 +3,29 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "6096261d063f973c748f54e1e1547d37",
-"index.html": "df25ccde460d995902978ef254a21fd6",
-"/": "0d4b1e6df3222e8cd4894e5011b5ec51",
-"main.dart.js": "7b402bee0cb3914a70a032d671bf059c",
-"favicon1.png": "5dcef449791fa27946b3d35ad8803796",
-"favicon.png": "16f9e48aae7b5de3b198c0942f03eb5f",
-"icons/tqlogo2.png": "16f9e48aae7b5de3b198c0942f03eb5f",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "8230f030168a0d3f2be3c0c114f386c9",
-"assets/AssetManifest.json": "55692165cf869192921be59abfd35dbb",
-"assets/NOTICES": "e6b4d5fc87f31d0261e7ac1ce4a53f11",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+  "version.json": "be4fb3b449d5986606dd06aa97473f7a",
+"index.html": "74702a9a72df7c3bf675963499f7e7de",
+"/": "efeb024daa2edd963e0d94f0498d6546",
+"main.dart.js": "c01c5bb580db79bf8055813e77f17e17",
+"favicon.png": "ebc8ae878589321d9ff2f3c53cefe20a",
+"icons/tflogo.png": "ebc8ae878589321d9ff2f3c53cefe20a",
+"manifest.json": "b7e46cef7df34a758b5ec0ef89c052ae",
+"assets/AssetManifest.json": "8d42352d7121211871be7022e6b93243",
+"assets/NOTICES": "fd7a16598ce19ac527007fff64046933",
+"assets/FontManifest.json": "daa211958d10c2a9183dd430d12a355d",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/assets/images/style/tqlogo1.png": "4515cfd4a32e92e85698c7313d50ad0a",
-"assets/assets/images/style/tqlogo2.png": "16f9e48aae7b5de3b198c0942f03eb5f",
-"assets/assets/images/style/tqlogo.jpg": "62b033607004244b3c66a176d3c784ed",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/assets/images/style/weapons.png": "d31efadcaa640cb8998f2afc124c74c8",
+"assets/assets/images/style/bracket.png": "5510061826d16eb3c2978d33bdb3b59d",
+"assets/assets/images/style/decro1.png": "e54d072ae291f60897e4f50b7bc2d9bf",
+"assets/assets/images/style/tflogo.png": "ebc8ae878589321d9ff2f3c53cefe20a",
+"assets/assets/images/style/bg5.jpg": "0e7a0a6836984d5bc09521723e87606b",
 "assets/assets/images/style/bg4.jpg": "8c01aaca9035446b27a4d66189f60734",
 "assets/assets/images/style/bg1.jpg": "4b0269a15db1c5cc832ef8be7cd2eecb",
 "assets/assets/images/style/bg3.jpg": "da4c13e73e0c7c4e8dcc5c8f12bf8303",
+"assets/assets/images/style/flower.png": "0b1beb29dc068a7f2b8a6f4f676fb2ae",
 "assets/assets/images/style/bg2.jpg": "423b423ecc3ce0b2b69220d01e6a31c1",
+"assets/assets/images/style/fox.png": "3b951dc84b4481b9b9f5e16b42ba9ebc",
 "assets/assets/images/map/Act1b.jpg": "91aec777a94113380583b6abb2b2c31f",
 "assets/assets/images/map/tqmap1a.htm": "631074c9113598a4d350d3f5201840dc",
 "assets/assets/images/map/Act1a.jpg": "fe03bc689fff764eef2a45cb38b2dec9",
@@ -2138,16 +2139,12 @@ const RESOURCES = {
 "assets/assets/images/cont/tagMIArmor075.png": "78de7f597b0a0fe763e7a36b66f1c808",
 "assets/assets/images/cont/xtagArtifactDescription003.png": "54ac81dbe29f59d60ecd8dfc429cbab2",
 "assets/assets/images/cont/tagUWeapon050.png": "6bfc6c87454d57c5733180050aecc68f",
-"assets/assets/files/favicon.ico": "c92b85a5b907c70211f4ec25e29a8c4a",
-"assets/assets/files/index.html": "0d4b1e6df3222e8cd4894e5011b5ec51",
-"assets/assets/files/logo512.png": "917515db74ea8d1aee6a246cfbcc0b45",
-"assets/assets/files/asset-manifest.json": "d0afa3d9599835f28dd7396805dce9b2",
-"assets/assets/files/manifest.json": "275200f2ec4320f573f841dc1ae27be2",
-"assets/assets/files/robots.txt": "fa1ded1ed7c11438a9b0385b1e112850",
-"assets/assets/files/logo192.png": "33dbdd0177549353eeeb785d02c294af",
+"assets/assets/htmls/index.html": "efeb024daa2edd963e0d94f0498d6546",
+"assets/assets/fonts/Zapfino.ttf": "b6c9aae87ad3ba9235734df44128903f",
+"assets/assets/fonts/DancingScript-Regular.ttf": "76fa291577e272826eb911e7d41f12ad",
 "assets/assets/data/dataOrg.json": "698ad67154ca219d9120e5481c369623",
 "assets/assets/data/config.json": "d881ca4623938704d5ed2bac5d5c7ec5",
-"assets/assets/data/data.json": "07c1fd5e0405eb017c5a7c427bc9e5f9"
+"assets/assets/data/data.json": "41ad9012a1527d4fea2c5e07da6b75cc"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -2165,7 +2162,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
