@@ -1,1 +1,77 @@
-{"app_name":"titanfox","version":"1.0.1","build_number":"1"}
+{
+    "version": "1.0.0",
+    "change": [
+        {
+            "type": "feature",
+            "typeName": "功能性",
+            "list": [
+                "新增装备的收藏功能",
+                "新增技能点模拟功能（基于第三方作者 hjlixjtu@贴吧）",
+                "装备、词缀、怪物搜索面板可实时展现匹配搜索条件的条目数量（不需要再前往搜索结果页）",
+                "装备、套装添加所属DLC标记",
+                "‘高玩点评’内容现在可联网实时更新功能，且更新速查资料、高玩点评成功后会提示更新了哪些内容",
+                "新增检查更新功能，Android版后续可直接更新APP版本，不再需要前往网盘下载",
+                "新增‘默认显示列表或卡片’、‘自动检查更新’等2项设置内容"
+            ]
+        },
+        {
+            "type": "ui",
+            "typeName": "UI",
+            "list": [
+                "统一了APP主题色风格",
+                "部分UI细节优化（此次改动细节较多、且分散）"
+            ]
+        },
+        {
+            "type": "bug",
+            "typeName": "Bug修复",
+            "list": [
+                "修正装备搜索部分结果不展示的问题（如搜索‘a’）",
+                "修正搜索词缀选择多个部位时，搜索逻辑取交集而非并集的问题（感谢B站网友 fallen deva反馈）"
+            ]
+        }
+    ],
+    "download": {
+        "baiduPanDownloadURL": "https://pan.baidu.com/s/1wvcPOrj-oXEddB08LxEYYA",
+        "baiduPanVerify": "dkhc",
+        "url": "https://larria.github.io/TitanFoxRelease/app-release.apk"
+    },
+    "ext": null,
+    "webURL": "http://tqfox.surge.sh/",
+    "contactURL": "https://m.bilibili.com/video/BV15B4y1u7Dr",
+    "contactScheme": "bilibili://video/BV15B4y1u7Dr",
+    "dialog": {
+        "type": "alert",
+        "enable": false,
+        "force": false,
+        "title": "发现新版本 v0.9.4 AE",
+        "cont1": {
+            "text": "请点击右上角查看新版本功能，欢迎您升级APP，使用更多功能"
+        },
+        "cont2": {
+            "text": "如有建议或bug反馈，请联系作者"
+        },
+        "cont3": {
+            "text": "B站 灵狐心月",
+            "url": "https://m.bilibili.com/video/BV15B4y1u7Dr"
+        }
+    },
+    "dialogShowOnce": {
+        "id": "1623035894569",
+        "type": "alert",
+        "enable": false,
+        "force": false,
+        "title": "发现新版本 v0.9.4 AE",
+        "cont1": {
+            "text": "请点击右上角查看新版本功能，欢迎您升级APP，使用更多功能"
+        },
+        "cont2": {
+            "text": "如有建议或bug反馈，请联系作者"
+        },
+        "cont3": {
+            "text": "B站 灵狐心月",
+            "url": "https://m.bilibili.com/video/BV15B4y1u7Dr"
+        }
+    },
+    "skillSimulatorURL" : "https://nincy2016.github.io/tqcalc/index.htm"
+}
