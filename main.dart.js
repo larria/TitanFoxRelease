@@ -91949,7 +91949,8 @@ return H.a([$.a_r(),$.a_s(),$.a_p(),$.a_q(),H.dk("Noto Naskh Arabic UI",H.a([H.W
 s($,"b3H","rp",function(){var q=t.V0
 return new H.Lh(new H.aby(),P.aX(q),P.r(t.N,q))})
 s($,"b3A","aNj",function(){return new H.ay_()})
-r($,"b3q","aNi",function(){return"https://unpkg.com/canvaskit-wasm@0.25.1/bin/canvaskit.js"})
+// r($,"b3q","aNi",function(){return"https://unpkg.com/canvaskit-wasm@0.25.1/bin/canvaskit.js"})
+r($,"b3q","aNi",function(){return"canvaskit.js"})
 r($,"b10","If",function(){return new H.PF(1024,new P.z3(H.a6("z3<en<E>>")),P.r(H.a6("en<E>"),H.a6("hm<en<E>>")))})
 r($,"b_W","aLl",function(){return new self.window.flutterCanvasKit.Paint()})
 r($,"b_V","aLk",function(){var q=new self.window.flutterCanvasKit.Paint()
