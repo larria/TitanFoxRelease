@@ -27360,7 +27360,8 @@ $1:function(a){J.xL(this.a.$0())
 J.aQs(self.window.CanvasKitInit({locateFile:P.oj(new H.ay3())}),P.oj(new H.ay4(this.b)))},
 $S:15}
 H.ay3.prototype={
-$2:function(a,b){return"https://unpkg.com/canvaskit-wasm@0.25.1/bin/"+a},
+// $2:function(a,b){return"https://unpkg.com/canvaskit-wasm@0.25.1/bin/"+a},
+$2:function(a,b){return""+a},
 $C:"$2",
 $R:2,
 $S:228}
