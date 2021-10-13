@@ -37,7 +37,7 @@
         "url": "https://larria.github.io/TitanFoxRelease/app-release.apk"
     },
     "ext": null,
-    "webURL": "http://tqfox.surge.sh/",
+    "webURL": "https://titanfox.vercel.app",
     "contactURL": "https://m.bilibili.com/video/BV15B4y1u7Dr",
     "contactScheme": "bilibili://video/BV15B4y1u7Dr",
     "dialog": {

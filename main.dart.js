@@ -84551,7 +84551,7 @@ R.a8L.prototype={
 $2:function(a,b){return a+this.a.aoA(b-a)},
 $S:178}
 T.tW.prototype={
-D:function(a,b){var s,r,q,p,o,n,m=null,l="http://tqfox.surge.sh",k=U.iD($.bZ.h(0,"logoPath"),m,60,60),j=C.b.K("v",$.bZ.h(0,"version")),i=A.ag(m,m,m,m,m,m,m,m,m,m,m,12,m,m,m,m,!0,m,m,m,m,m,m,m)
+D:function(a,b){var s,r,q,p,o,n,m=null,l="https://titanfox.vercel.app",k=U.iD($.bZ.h(0,"logoPath"),m,60,60),j=C.b.K("v",$.bZ.h(0,"version")),i=A.ag(m,m,m,m,m,m,m,m,m,m,m,12,m,m,m,m,!0,m,m,m,m,m,m,m)
 i=M.t(C.c6,R.dd(!1,!0,L.ajJ(Q.cD(H.a([Q.cD(m,m,m,A.ag(m,m,C.b2,m,m,m,m,m,m,m,m,12,C.a7,m,m,m,!0,m,m,m,m,m,m,m),"TQDB by fonsleenaars")],t.VO),m,m,i,"\u6e38\u620f\u6570\u636e\uff1a")),m,!0,m,m,m,m,m,m,m,m,m,new T.a9J(),m,m,m,m,m),C.e,m,m,m,m,m,m,new V.w(0,10,0,0),m,m,m,m)
 s=T.ds(m,20,m)
 r=A.ag(m,m,m,m,m,m,m,m,m,m,m,20,m,C.a8,m,m,!0,m,m,m,m,m,m,m)
