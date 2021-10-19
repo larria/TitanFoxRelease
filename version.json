@@ -6,7 +6,8 @@
             "typeName": "重要",
             "list": [
                 "解除试用版2022年前可用的限制，正式版趋于稳定，不再设置时限",
-                "兼容Android 12 / IOS 14 / Windows 11（桌面版）"
+                "兼容Android 12 / IOS 14 / Windows 11（桌面版）",
+                "Android版新增应用签名（需卸载原APP后安装，请注意保存数据）"
             ]
         },
         {
