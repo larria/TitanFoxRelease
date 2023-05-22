@@ -310,7 +310,9 @@
         "ItemArtifactFormula": "神器奖励",
         "ItemCharm": "符咒",
         "ItemRelic": "遗物",
-        "OneShot_Scroll": "卷轴",
+        "OneShot_Scroll": "卷轴&药品",
+        "OneShot_Scroll_Eternal": "药剂",
+        "QuestItem": "任务物品",
         "WeaponArmor_Shield": "盾牌",
         "WeaponHunting_Bow": "弓",
         "WeaponHunting_RangedOneHand": "掷",
@@ -382,7 +384,7 @@
         "offensiveGlobalChance": "几率混伤"
     },
     "renderClassification": {
-        "传说": "紫装",
+        "传奇": "紫装",
         "史诗": "蓝装",
         "稀有的": "特绿"
     },
